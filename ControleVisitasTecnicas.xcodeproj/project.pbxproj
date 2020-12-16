@@ -14,6 +14,8 @@
 		6597519E258846F200498E18 /* ControleVisitasTecnicas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6597519C258846F200498E18 /* ControleVisitasTecnicas.xcdatamodeld */; };
 		659751A0258846F300498E18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6597519F258846F300498E18 /* Assets.xcassets */; };
 		659751A3258846F300498E18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659751A1258846F300498E18 /* LaunchScreen.storyboard */; };
+		659751AD258849B700498E18 /* ListarVisitasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659751AC258849B700498E18 /* ListarVisitasTableViewController.swift */; };
+		65BF7F1B258988D200CF1396 /* CadastroIntervencaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BF7F1A258988D200CF1396 /* CadastroIntervencaoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		6597519F258846F300498E18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		659751A2258846F300498E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		659751A4258846F300498E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		659751AC258849B700498E18 /* ListarVisitasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListarVisitasTableViewController.swift; sourceTree = "<group>"; };
+		65BF7F1A258988D200CF1396 /* CadastroIntervencaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroIntervencaoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				65975193258846F200498E18 /* AppDelegate.swift */,
 				65975195258846F200498E18 /* SceneDelegate.swift */,
 				65975197258846F200498E18 /* ViewController.swift */,
+				659751AC258849B700498E18 /* ListarVisitasTableViewController.swift */,
+				65BF7F1A258988D200CF1396 /* CadastroIntervencaoViewController.swift */,
 				65975199258846F200498E18 /* Main.storyboard */,
 				6597519F258846F300498E18 /* Assets.xcassets */,
 				659751A1258846F300498E18 /* LaunchScreen.storyboard */,
@@ -143,7 +149,9 @@
 				65975198258846F200498E18 /* ViewController.swift in Sources */,
 				65975194258846F200498E18 /* AppDelegate.swift in Sources */,
 				65975196258846F200498E18 /* SceneDelegate.swift in Sources */,
+				659751AD258849B700498E18 /* ListarVisitasTableViewController.swift in Sources */,
 				6597519E258846F200498E18 /* ControleVisitasTecnicas.xcdatamodeld in Sources */,
+				65BF7F1B258988D200CF1396 /* CadastroIntervencaoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
