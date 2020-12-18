@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Intervencoes" representedClassName="Intervencoes" syncable="YES" codeGenerationType="class">
-        <attribute name="descricao" optional="YES" attributeType="String"/>
-        <attribute name="equipamento" optional="YES" attributeType="String"/>
-    </entity>
     <entity name="Visitas" representedClassName="Visitas" syncable="YES" codeGenerationType="class">
         <attribute name="data" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="descricao" optional="YES" attributeType="String"/>
         <attribute name="empresa" optional="YES" attributeType="String"/>
+        <attribute name="equipamento" optional="YES" attributeType="String"/>
         <attribute name="horainicio" optional="YES" attributeType="String"/>
         <attribute name="horatermino" optional="YES" attributeType="String"/>
         <attribute name="tecnico" optional="YES" attributeType="String"/>
-        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Visitas" inverseName="relationship" inverseEntity="Visitas"/>
     </entity>
     <elements>
-        <element name="Intervencoes" positionX="-54" positionY="27" width="128" height="73"/>
-        <element name="Visitas" positionX="-54" positionY="-9" width="128" height="133"/>
+        <element name="Visitas" positionX="-54" positionY="0" width="128" height="148"/>
     </elements>
 </model>
